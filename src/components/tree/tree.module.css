@@ -1,0 +1,223 @@
+li {
+    list-style: none;
+    display: inline;
+    vertical-align: middle;
+    font-family: "calibri";
+  
+  }
+  .treenode {
+    padding-right: 0px;
+  }
+  .imageCss {
+    height: 16px;
+    width: 22px;
+    padding-right: 3px;
+    position: relative;
+  }
+  .toggleicon {
+    height: 1em;
+    width: 1em;
+    padding-bottom: 10px;
+  }
+  .docicon {
+    height: 18px;
+    width: 18px;
+    padding-bottom: 10px;
+  }
+  .dropdownmenu {
+      display: block;
+  }
+  .dropdown {
+      display: inline-block;
+      position: absolute ;
+      cursor: pointer;
+  }
+  .nodevalue:hover {
+    background: #e7f4f9
+  }
+  .noChildren {
+    margin-left: 1px;
+    margin-bottom: 4px;
+    margin-top: 3px
+  }
+  .noChildrens {
+    margin-left: 19px;
+  }
+  .nodevalue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .expandcollapseicons {
+    display: inline;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  li {
+    display : block;
+  }
+  .icons {
+    margin-left: 5px;
+    display: inline;
+    vertical-align: middle ;
+  }
+  .context-item {
+    padding: 3px 15px;
+    color: #2f2f2f;
+  }
+  .contextmenu {
+    list-style-type: none;
+    background: #fff;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+  }
+  .cicons {
+    margin-left: -17px;
+    font-size: 14px;
+  }
+  .item {
+    margin-left: 8px;
+  }
+  
+  .context-item:hover{
+    color: white;
+    background-color:  #2980b9;
+  }
+  .treeview, .treeview ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    
+  color: rgb(8, 8, 8);
+  }
+  .treeview ul {
+    margin-left:1em;
+    position:relative
+  }
+  .treeview ul ul {
+    margin-left:.5em
+  }
+  .treeview ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:-1em;
+    left:0;
+    border-left:1.8px dashed #666666;
+    bottom:1em;
+  }
+
+  .treeview li {
+    margin:0;
+    padding:0 1em;
+    padding-right: 0px;
+    line-height:2em;
+    font-weight:400;
+    position:relative
+  }
+  .treeview ul li:before {
+    content:"";
+    display:block;
+    width:15px;
+    height:0;
+    border-top:1.8px dashed #757575;
+    margin-top:1px;
+    position:absolute;
+    top:0.9em;
+    left:0
+  }
+  li {
+    list-style: none;
+  }
+
+.lastchild:before {
+  height: 2em;
+}
+template> .tree:last-child > ul.treeview:before {
+  height: 2em;
+}
+.nodetext {
+  display: flex;
+  align-items: center;
+  flex:1;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E7EDF8;
+}
+.docnode {
+  font-weight: normal;
+}
+.nondocnode {
+  font-weight: bold;
+}
+.documentinfo {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+.properties {
+  color: blue;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.version {
+  font-size: 12px;
+}
+.parentversion {
+  background-color: yellow;
+  width: 32px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  background: #F9E9BE;
+  border-radius: 3px;
+}
+.parentdocstatus {
+  height: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  border-radius: 3px;
+}
+.docstatus {
+  font-size: 11px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.draft {
+  background: #F1D1C6;
+}
+.nondraft {
+  background: #C7E5CA;
+}
+.parentassignee {
+  padding-top: 5px;
+  margin-left: 15%;
+}
+.assignee {
+  background: #E7F8F8;
+  border: 1px solid #33C6C8;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 18px;
+}
+.assigneename {
+  padding-right: 5px;
+    padding-left: 5px;
+    color: #33C6C8;
+}
+.close-icon {
+  height: 8px;
+  width: 8px;
+  padding-top: 3px;
+}
